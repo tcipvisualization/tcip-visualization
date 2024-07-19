@@ -1,0 +1,92 @@
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.first {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.map {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+}
+
+.mainMap {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.heightRef {
+  width: 0;
+}
+
+.sidebar {
+  width: min(30vw, 300px);
+
+  padding: 1em 0.5em;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sidebarTitle {
+  text-align: center;
+}
+
+.sidebarText {
+  color: red;
+  font-size: 0.85rem;
+  margin: 0.5em 0;
+}
+
+.projectList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.scrollDownArrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 1em;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.scrollDownArrow:hover {
+  // set light transparent background color
+  background-color: rgba(255, 255, 0, 0.7);
+}
+
+.project {
+  padding: 0.5em;
+  margin: 0.5em 0;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 0.5rem;
+}
+
+.project:hover {
+  background-color: #b5b5b5;
+}

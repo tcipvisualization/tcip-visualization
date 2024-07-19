@@ -1,0 +1,43 @@
+.legend {
+  width: 175px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-weight: lighter;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 0.5em;
+  font-weight: normal;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+
+  padding: 0.25em 0.25em 0.25em 0.5em;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.line {
+  width: 20px;
+  height: 5px;
+  margin-right: 10px;
+}
+
+.grow {
+  background-color: #00ff00;
+}
+
+.modernize {
+  background-color: #ff8800;
+}
+
+.maintain {
+  background-color: #ffdd00;
+}

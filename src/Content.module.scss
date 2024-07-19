@@ -1,0 +1,69 @@
+.second {
+  background-color: #fbf6f6;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.analysis {
+  padding: 5em 2em;
+  width: min(100%, 1600px);
+}
+
+.analysisHeader {
+  font-size: 2.2rem;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+}
+
+.analysisItem {
+  margin: 2em 0;
+  overflow-x: auto;
+}
+
+.analysisItemHeader {
+  font-size: 1.5rem;
+}
+
+.financeTable {
+  margin-top: 1.5em;
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #ccf6f5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0;
+}
+
+.third {
+  background-color: #f6f6f6;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #000;
+}
+
+.about {
+  padding: 5em 2em;
+  width: min(100%, 1600px);
+}
+
+.aboutHeader {
+  font-size: 2.2rem;
+}
+
